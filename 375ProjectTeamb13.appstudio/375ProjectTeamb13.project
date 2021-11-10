@@ -26,6 +26,22 @@
             "Form1",
             "Form1.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "loginPage",
+            "loginPage.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "userHomePage",
+            "userHomePage.json"
+          ]
         }
       ],
       "configxml": null,
