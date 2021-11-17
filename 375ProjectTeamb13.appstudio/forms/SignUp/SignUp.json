@@ -2,7 +2,7 @@
   "!type": "Form",
   "HTML": null,
   "attributes": "",
-  "background": "WHite",
+  "background": "",
   "backgroundimage": "",
   "borderColor": "",
   "borderStyle": "",
@@ -14,145 +14,91 @@
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "hmbHomepage.json"
+        "inptUserName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "Container1.json"
+        "inptCity.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnNews.json"
+        "inptPassword.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnBetting.json"
+        "inptLastName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnTickets.json"
+        "inptFirstName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnHighlights.json"
+        "inptAddress.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnMap.json"
+        "btnSubmit.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "btnScores.json"
+        "inptZipcode.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "userHomePage",
+        "SignUp",
         "Elements",
-        "Container1Copy.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgNews.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgBetting.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgTickets.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgScores.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgMaps.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "userHomePage",
-        "Elements",
-        "imgHighlights.json"
+        "inptState.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 0,
-  "designWidth": 0,
+  "designHeight": 600,
+  "designWidth": 320,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": 460,
-  "id": "userHomePage",
+  "height": "420",
+  "id": "SignUp",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -169,5 +115,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": 320
+  "width": "300"
 }
