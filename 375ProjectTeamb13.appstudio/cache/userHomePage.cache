@@ -21,4 +21,4 @@ btnMap.onclick=function(){
 btnHighlights.onclick=function(){
   ChangeForm()
 }
-}
+
