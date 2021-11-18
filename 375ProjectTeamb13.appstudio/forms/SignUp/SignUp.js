@@ -1,10 +1,3 @@
-let query = ""
-let req = {}
-let results = []
-let netID = "nbj83510"
-let groupID = "375groupb13"
-let pw = "Rockyzack15$"
-
 btnSubmit.onclick=function(){
   let username = inptUserName.value
   let password = inptPassword.value

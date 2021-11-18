@@ -14,11 +14,13 @@ btnLogin.onclick=function(){
   if (req.status == 200) {
     results = JSON.parse(req.responseText)
     console.log(results)
-    //ChangeForm(userHomePage)
-    if (results.length == 0)
-      alert("Incorrect Username or Password, please try again!")
-    else
-        ChangeForm(SignUp)
+    if (results.length != 0)
+      ChangeForm(userHomePage)
+    else if (results.length == 0)
+      alert("Try again or sign up new user")
+  } 
+  else
+     alert("Error: " + req.status)
 }
 
 btnSignUp.onclick=function(){
